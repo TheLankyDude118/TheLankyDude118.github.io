@@ -1,0 +1,31 @@
+<!doctype html>
+
+<head>
+<title>Random Article Generator</title>
+</head>
+
+<link rel="stylesheet" href="Styles.css">
+
+<body>
+<h1 align="center"><BIG><u><b>Random Article Generator</b></u></BIG></h1>										  <!--line 1--> 
+<h2 align="center"><u><b>Click here for a random article</b></u></h2>											  <!--line 2-->
+
+<script type="text/javascript">
+
+var links = new Array();
+links[0] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+links[1] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";														   <!--links-->
+links[2] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+links[3] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
+function openLink() {
+  var i = Math.floor(Math.random() * links.length);
+  parent.location = links[i];
+  return false;
+}
+</script>
+
+<h2 align="center"><button class="button button1" onclick="openLink();" class='btn'>Click Me</button></h2>		   <!--button code-->
+
+</body>
+</html>
