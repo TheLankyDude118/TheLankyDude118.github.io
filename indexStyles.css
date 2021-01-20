@@ -1,0 +1,15 @@
+
+body {
+background-color: #D01313;
+background-size: 100%;
+font-size: 48px;
+color: var(--text-colour);
+}
+
+.btnOpenRnd {
+ height:100px;
+    width:200px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size:20px;
+}
