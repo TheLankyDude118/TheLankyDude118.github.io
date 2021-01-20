@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+<link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
 <title>Lankysite Homepage</title>
 </head>
 
@@ -19,9 +20,14 @@ function openLink() {
   parent.location = "http://lankysite.co.uk/RandomArticle";
   return false;
 }
+
+function download() {
+  parent.location = "http://TheLankyDude118.github.io/downloads/BlackJack.exe";
+  return false;
+}
 </script>
 
-<a href="http://TheLankyDude118.github.io/downloads/BlackJack.exe" download="BlackJack.exe">Download</a>
+<h2 align="left"><button class="button btnOpenRnd" onclick="download();" class='btn'>Download</button></h2>
 
 <h2 align="left"><button class="button btnOpenRnd" onclick="openLink();" class='btn'>Random Article Generator</button></h2>
 
