@@ -12,9 +12,15 @@ body {
   justify-content: left;
 }
 
+img {
+  width: 150;
+  height: 150;
+}
+
 .image {
   order: 1;
 }
+
 .text {
   padding-left: 20px;
   order: 1;
