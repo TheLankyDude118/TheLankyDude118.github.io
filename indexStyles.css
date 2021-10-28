@@ -9,6 +9,7 @@ color: var(--text-colour);
 .column {
   float: left;
   padding: 10px;
+  vertical-align: middle
 }
 
 .row::after {
