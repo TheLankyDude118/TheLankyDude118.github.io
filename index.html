@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 
 <head>
-<link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
-<title>Lankysite Homepage</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
+    <title>Lankysite Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<html>
+<script src="genScript.js"></script>
+
+<script src="indexScript.js"></script>
 
 <link rel="stylesheet" href="indexStyles.css">
 
+<html>
 <body>
 
-<h1 align="center"><BIG><u><b>Lankysite.co.uk</b></u></BIG></h1>
-<h2 align="center"><u><b>Welcome to the home of everything TheLankyDude</b></u></h2>
-<p align="center"><b>Click the icons</b></p>
+    <div class="row">
+        <div class="column">
+            <button class="topButton" onclick="btnHomeClick()" style="width:100%">Home</button>
+        </div>
 
-<div class="container">
-    <div class="image">
-        <p><a class="image" title="Email" href="mailto:jaden.lawrence11@gmail.com"><img src="pics/emailLogo.png"></a></p>
+        <div class="column">
+            <button class="topButton" onclick="btnProjClick()" style="width:100%">Projects</button>
+        </div>
+
+        <div class="column">
+            <button class="topButton" onclick="btn3Click()" style="width:100%">Button 3</button>
+        </div>
+
+        <div class="column">
+            <button class="topButton" onclick="btnTestClick()" style="width:100%">Test Area</button>
+        </div>
     </div>
-    <div class="text">
-        <p>jaden.lawrence11@gmail.com</p>
+
+    <h1 align="center"><BIG><u><b>Lankysite.co.uk</b></u></BIG></h1>
+    <h2 align="center"><u><b>Welcome to the home of everything TheLankyDude</b></u></h2>
+    <p align="center"><b>Click the icons</b></p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Email" href="mailto:jaden.lawrence11@gmail.com"><img src="pics/emailLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>jaden.lawrence11@gmail.com</p>
+        </div>
     </div>
-</div>
-  
-<div class="container">
-    <div class="image">
-        <p><a class="image" title="Facebook" href="https://www.facebook.com/profile.php?id=100005004527901"><img src="pics/fbLogo.png"></a></p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Facebook" href="https://www.facebook.com/profile.php?id=100005004527901"><img src="pics/fbLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>Jaden Lawrence</p>
+        </div>
     </div>
-    <div class="text">
-        <p>Jaden Lawrence</p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Insta" href="https://www.instagram.com/jadenlawrence118/"><img src="pics/instaLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>jadenlawrence118</p>
+        </div>
     </div>
-</div>
-    
-<div class="container">
-    <div class="image">    
-        <p><a class="image" title="Insta" href="https://www.instagram.com/jadenlawrence118/"><img src="pics/instaLogo.png"></a></p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Twitter" href="https://twitter.com/TheLankyDude118"><img src="pics/twitterLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>TheLankyDude118</p>
+        </div>
     </div>
-    <div class="text">
-        <p>jadenlawrence118</p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Snapchat" href="https://www.snapchat.com/add/thelankydude"><img src="pics/snapLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>thelankydude</p>
+        </div>
     </div>
-</div>
-    
-<div class="container">
-    <div class="image"> 
-        <p><a class="image" title="Twitter" href="https://twitter.com/TheLankyDude118"><img src="pics/twitterLogo.png"></a></p>
+
+    <div class="container">
+        <div class="image">
+            <p><a class="image" title="Paypal" href="https://paypal.me/jadenlawrence118"><img src="pics/paypalLogo.png"></a></p>
+        </div>
+        <div class="text">
+            <p>jadenlawrence118 / jaden.lawrence11@gmail.com</p>
+        </div>
     </div>
-    <div class="text">
-        <p>TheLankyDude118</p>
-    </div>
-</div>
-      
-<div class="container">
-    <div class="image">     
-        <p><a class="image" title="Snapchat" href="https://www.snapchat.com/add/thelankydude"><img src="pics/snapLogo.png"></a></p>
-    </div>
-    <div class="text">
-        <p>thelankydude</p>
-    </div>
-</div>
-    
-<div class="container">
-    <div class="image">     
-        <p><a class="image" title="Paypal" href="https://paypal.me/jadenlawrence118"><img src="pics/paypalLogo.png"></a></p>
-    </div>
-    <div class="text">
-        <p>jadenlawrence118 / jaden.lawrence11@gmail.com</p>
-    </div>
-</div>
 
 </body>
 </html>
