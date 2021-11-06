@@ -35,20 +35,27 @@
 
     <script type="text/javascript">
 
-        function openLink() {
+        function openRAG() {
             parent.location = "http://TheLankyDude118.github.io/RandomArticle";
             return false;
         }
 
-        function download() {
+        function downloadBJ() {
             parent.location = "http://TheLankyDude118.github.io/downloads/BlackJack.exe";
+            return false;
+        }
+
+        function openGenImpComp() {
+            parent.location = "http://TheLankyDude.github.io/";
             return false;
         }
     </script>
 
-    <h2 align="left"><button class="button btnOpenRnd" onclick="download();">Download</button></h2>
+    <h2 align="left"><button class="btnProj" onclick="downloadBJ();">Blackjack</button></h2>
 
-    <h2 align="left"><button class="button btnOpenRnd" onclick="openLink();">Random Article Generator</button></h2>
+    <h2 align="left"><button class="btnProj" onclick="openRAG();">Random Article Generator</button></h2>
+
+    <h2 align="left"><button class="btnProj" onclick="openGenImpComp();">Genshin Impact Companion App</button></h2>
 
 </body>
 </html>
