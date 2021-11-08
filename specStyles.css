@@ -1,14 +1,14 @@
 .TLDLogo {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .URLPic {
-    width: 750px;
-    height: 150px;
+    width: 375px;
+    height: 75px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .TLDLogo {
         width: 50px;
         height: 50px;

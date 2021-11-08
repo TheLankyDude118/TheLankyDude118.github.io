@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #b00202;
     background-size: 100%;
-    font-size: 20px;
+    font-size: 28px;
     color: #ffffff;
 }
 
@@ -71,15 +71,36 @@ body {
     width: inherit;
     background-color: #000000;
     z-index: 1;
-    height: 200px;
+    height: 100px;
 }
 
 @media only screen and (max-width: 600px) {
+
+    body {
+        margin: 0;
+        background-color: #b00202;
+        background-size: 100%;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
     .header {
         top: 300px;
         width: inherit;
         background-color: #000000;
         z-index: 1;
         height: 50px;
+    }
+
+    .socialImage {
+        order: 1;
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+    }
+
+    .text {
+        padding-left: 10px;
+        order: 1;
     }
 }

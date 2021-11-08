@@ -3,6 +3,7 @@
 <head>
     <link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
     <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <script src="genScript.js"></script>
@@ -31,7 +32,7 @@
         </div>
 
         <div class="column">
-            <button class="topButton" onclick="btn3Click()" style="width:100%">Button 3</button>
+            <button class="topButton" onclick="btnMusicClick()" style="width:100%">Music</button>
         </div>
 
         <div class="column">
@@ -39,23 +40,38 @@
         </div>
     </div>
 
-    <h1 align="center"><BIG><u><b>Projects</b></u></BIG></h1>
-    <h2 align="center"><u><b>Welcome to the home of TheLankyDude's projects</b></u></h2>
+    <h2 align="center"><u><b>Projects</b></u></h2>
+    <p align="center"><b>Welcome to the home of TheLankyDude's projects</b></p>
 
     <script type="text/javascript">
-
-        function openRAG() {
-            parent.location = "http://TheLankyDude118.github.io/RandomArticle";
-            return false;
-        }
 
         function downloadBJ() {
             parent.location = "http://TheLankyDude118.github.io/downloads/BlackJack.exe";
             return false;
         }
 
+        function openRAG() {
+            parent.location = "http://TheLankyDude118.github.io/RandomArticle";
+            return false;
+        }
+
         function openGenImpComp() {
             parent.location = "http://TheLankyDude.github.io/";
+            return false;
+        }
+
+        function downloadGames() {
+            parent.location = "http://TheLankyDude118.github.io/downloads/GamesHub.exe";
+            return false;
+        }
+
+        function downloadFloppy() {
+            parent.location = "http://TheLankyDude118.github.io/downloads/FloppyBird.exe";
+            return false;
+        }
+
+        function downloadSnake() {
+            parent.location = "http://TheLankyDude118.github.io/downloads/Snake.exe";
             return false;
         }
     </script>
@@ -65,6 +81,13 @@
     <h2 align="left"><button class="btnProj" onclick="openRAG();">Random Article Generator</button></h2>
 
     <h2 align="left"><button class="btnProj" onclick="openGenImpComp();">Genshin Impact Companion App</button></h2>
+
+    <h2 align="left"><button class="btnProj" onclick="downloadGames();">Games Hub</button></h2>
+
+    <h2 align="left"><button class="btnProj" onclick="downloadFloppy();">Floppy Bird</button></h2>
+
+    <h2 align="left"><button class="btnProj" onclick="downloadSnake();">Snake</button></h2>
+
 
 </body>
 </html>
