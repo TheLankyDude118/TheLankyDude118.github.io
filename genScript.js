@@ -6,7 +6,7 @@ function btnProjClick() {
     parent.location = "https://thelankydude118.github.io/projects";
 }
 
-function btnProjClick() {
+function btnMusicClick() {
     parent.location = "https://thelankydude118.github.io/music";
 }
 
