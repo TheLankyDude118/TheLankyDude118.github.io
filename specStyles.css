@@ -8,6 +8,17 @@
     height: 75px;
 }
 
+.musicColumn {
+    float: left;
+    width: 16.6%;
+}
+
+.musicRow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 @media only screen and (max-width: 768px) {
     .TLDLogo {
         width: 50px;
@@ -17,5 +28,16 @@
     .URLPic {
         width: 190px;
         height: 38px;
+    }
+
+    .musicColumn {
+        float: left;
+        width: 100%;
+    }
+
+    .musicRow::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 }

@@ -1,4 +1,12 @@
-function myfunction() {
+function btn1Click() {
+    alert("Button Clicked!")
+}
+
+function btn2Click() {
+    window.close();
+    window.open("https://www.w3schools.com");
+}
+function btn3Click() {
     let variable;
     let master = false;
 
@@ -13,6 +21,7 @@ function myfunction() {
 
     function masterUser() {
         alert("You have admin controls")
+        master = true;
     }
 
     if (((name == "Jaden") || (name == "jaden")) && (age == 18)) {       // || - or, && - and, ! - not
@@ -22,13 +31,4 @@ function myfunction() {
     } else {
         alert("Welcome user")
     }
-}
-
-function btn1Click() {
-    alert("Button Clicked!")
-}
-
-function btn2Click() {
-    window.close();
-    window.open("https://www.w3schools.com");
 }
