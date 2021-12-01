@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
+    <title>Graphic Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<script src="genScript.js"></script>
+
+<script src="testScript.js"></script>
+
+<link rel="stylesheet" href="genStyles.css">
+
+<link rel="stylesheet" href="specStyles.css">
+
+<body onscroll="scrollLock()">
+
+    <div class="header">
+        <div class="container" id="top">
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="TLDLogo" src="pics/TLDLogo.png"></a>
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="URLPic" src="pics/URL.png"></a>
+        </div>
+    </div>
+
+    <div class="topRow">
+        <div class="topColumn">
+            <button class="topButton" onclick="btnHomeClick()" style="width:100%">Home</button>
+        </div>
+
+        <div class="topColumn">
+            <div class="dropdown" style="width:100%">
+                <button class="topDropBtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="https://thelankydude118.github.io/projects">Coding and Programming</a>
+                    <a href="https://thelankydude118.github.io/picEdits">Graphic Design</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="topColumn">
+            <button class="topButton" onclick="btnMusicClick()" style="width:100%">Music</button>
+        </div>
+
+        <div class="topColumn">
+            <button class="topButton" onclick="btnTestClick()" style="width:100%">Test Area</button>
+        </div>
+    </div>
+
+    <h2 align="center"><u><b>Graphic Design</b></u></h2>
+    <p align="left" class="text">
+        In 2020, I went through a phase of editing images together and making a form of art through the use of
+        photoshop. It was a passion of mine for a while, and I started an <a href="https://www.instagram.com/tldedits/">instagram</a> account to
+        show off my creations. They didn't get much attention, and setting myself a schedule made the whole thing feel like a job, which
+        ultimately led to its demise. It was fun while it lasted though
+    </p>
+    <p align="left" class="text">Download links can be found at the bottom of this page, or click <a href="javascript:goToBottom()">here</a></p>
+    <div style="height: 1000px"></div>
+
+
+    <a class="scrollButton" align="center" onclick="btnFirstClick()"><img src="pics/SeeImages.png" style="width:100%" id="btnScroll"></a>
+
+    <div class="deleEdit">
+        <div class="editsCaption" id="first">
+            <h2 align="center"><u><b>Dele Alli</b></u></h2>
+            <p align="center">
+                <b>
+                    My first footballer edit. I chose Dele since he plays for Tottenham and is my favourite player (very
+                    unpopular opinion)
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <div class="reidEdit">
+        <div class="editsCaption">
+            <h2 align="center"><u><b>Jamie Reid</b></u></h2>
+            <p align="center">
+                <b>
+                    This one was created for my other best friend. We're from Torquay and Jamie was the Torquay United striker. I didn't
+                    watch TUFC very often but it was a fun experience when I did. My friend went to every game though and loved Jamie
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <div class="adamaEdit">
+        <div class="editsCaption">
+            <h2 align="center"><u><b>Adama Traore</b></u></h2>
+            <p align="center">
+                <b>
+                    My next edit was a request from my best mate. His favourite player was Adama. I personally think this one
+                    came out better than the previous
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <div class="grealishEdit">
+        <div class="editsCaption">
+            <h2 align="center"><u><b>Jack Grealish</b></u></h2>
+            <p align="center">
+                <b>
+                    This was another request from the Reid fan. The main team he supported was Aston Villa, who Grealish played for at the time
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <div class="gilmourEdit">
+        <div class="editsCaption">
+            <h2 align="center"><u><b>Billy Gilmour</b></u></h2>
+            <p align="center">
+                <b>
+                    This one was a request from a schoolmate (a Chelsea fan) who liked the young player Billy Gilmour
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <div class="englandEdit">
+        <div class="editsCaption">
+            <h2 align="center"><u><b>England National Team</b></u></h2>
+            <p align="center">
+                <b>
+                    I made this one on the day that Euro 2020 was postponed. It was a sad day but I still had fun making the edit
+                </b>
+            </p>
+        </div>
+    </div>
+
+    <p align="left" class="text" id="bottom">Downloads:</p>
+    <p align="left" class="text" id="bottom">All images are HD (1920x1080)</p>
+
+    <div align="center">
+        <img onclick="downloadDele()" src="pics/Edits/Dele Edit.png" class="downloadPic" />
+        <img src="pics/Edits/Reid Edit.png" class="downloadPic" />
+        <img src="pics/Edits/Adama Edit.png" class="downloadPic" />
+        <img src="pics/Edits/Grealish Edit.png" class="downloadPic" />
+        <img src="pics/Edits/Gilmour Edit.png" class="downloadPic" />
+        <img src="pics/Edits/England Edit.png" class="downloadPic" />
+    </div>
+</body>

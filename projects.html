@@ -17,8 +17,8 @@
 
     <div class="header">
         <div class="container">
-            <a class="image" align="left"><img class="TLDLogo" src="pics/TLDLogo.png"></a>
-            <a class="image" align="left"><img class="URLPic" src="pics/URL.png"></a>
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="TLDLogo" src="pics/TLDLogo.png"></a>
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="URLPic" src="pics/URL.png"></a>
         </div>
     </div>
 
@@ -28,7 +28,13 @@
         </div>
 
         <div class="topColumn">
-            <button class="topButton" onclick="btnProjClick()" style="width:100%">Projects</button>
+            <div class="dropdown" style="width:100%">
+                <button class="topDropBtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="https://thelankydude118.github.io/projects">Coding and Programming</a>
+                    <a href="https://thelankydude118.github.io/picEdits">Graphic Design</a>
+                </div>
+            </div>
         </div>
 
         <div class="topColumn">
@@ -42,39 +48,6 @@
 
     <h2 align="center"><u><b>Projects</b></u></h2>
     <p align="center"><b>Welcome to the home of TheLankyDude's projects</b></p>
-
-    <script type="text/javascript">
-
-        function downloadBJ() {
-            parent.location = "http://TheLankyDude118.github.io/downloads/BlackJack.exe";
-            return false;
-        }
-
-        function openRAG() {
-            parent.location = "http://TheLankyDude118.github.io/RandomArticle";
-            return false;
-        }
-
-        function openGenImpComp() {
-            parent.location = "http://TheLankyDude.github.io/";
-            return false;
-        }
-
-        function downloadGames() {
-            parent.location = "http://TheLankyDude118.github.io/downloads/GamesHub.exe";
-            return false;
-        }
-
-        function downloadFloppy() {
-            parent.location = "http://TheLankyDude118.github.io/downloads/FloppyBird.exe";
-            return false;
-        }
-
-        function downloadSnake() {
-            parent.location = "http://TheLankyDude118.github.io/downloads/Snake.exe";
-            return false;
-        }
-    </script>
 
     <p class="text"><u>Sites:</u></p>
 

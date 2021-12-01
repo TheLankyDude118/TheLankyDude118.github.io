@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .TLDLogo {
     width: 100px;
     height: 100px;
@@ -17,6 +21,103 @@
     content: "";
     clear: both;
     display: table;
+}
+
+.testParallax {
+    /* The image used */
+    background-image: url('pics/BOTWWallpaper.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.editsCaption {
+    height: 52px;
+    width: 3.5%;
+    background-image: url('pics/picInfo.png');
+    overflow: hidden;
+    background-size: inherit;
+    font-size: 0px;
+}
+
+    .editsCaption:hover {
+        background-image: none;
+        height: 300px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        padding: 5px 80px;
+        text-align: justify;
+        font-size: inherit;
+    }
+
+.scrollButton {
+    position: fixed;
+    bottom: 5px;
+    left: 42.5%;
+    height: 100px;
+    width: 200px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.deleEdit {
+    background-image: url('pics/Edits/Dele Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reidEdit {
+    background-image: url('pics/Edits/Reid Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adamaEdit {
+    background-image: url('pics/Edits/Adama Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grealishEdit {
+    background-image: url('pics/Edits/Grealish Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gilmourEdit {
+    background-image: url('pics/Edits/Gilmour Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.englandEdit {
+    background-image: url('pics/Edits/England Edit.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {

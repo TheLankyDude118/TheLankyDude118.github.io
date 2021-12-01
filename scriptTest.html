@@ -18,8 +18,8 @@
 
     <div class="header">
         <div class="container">
-            <a class="image" align="left"><img class="TLDLogo" src="pics/TLDLogo.png"></a>
-            <a class="image" align="left"><img class="URLPic" src="pics/URL.png"></a>
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="TLDLogo" src="pics/TLDLogo.png"></a>
+            <a class="image" align="left" href="https://thelankydude118.github.io"><img class="URLPic" src="pics/URL.png"></a>
         </div>
     </div>
 
@@ -29,7 +29,13 @@
         </div>
 
         <div class="topColumn">
-            <button class="topButton" onclick="btnProjClick()" style="width:100%">Projects</button>
+            <div class="dropdown" style="width:100%">
+                <button class="topDropBtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="https://thelankydude118.github.io/projects">Coding and Programming</a>
+                    <a href="https://thelankydude118.github.io/picEdits">Graphic Design</a>
+                </div>
+            </div>
         </div>
 
         <div class="topColumn">
@@ -41,29 +47,33 @@
         </div>
     </div>
 
-    <h2 align="center"><u><b>Testing Area</b></u></h2>
-    <p align="center"><b>This is an area used for testing html, css, and javascript</b></p>
-
-    <div class="row">
-        <div class="column">
-
-            <button class="button" onclick="btn1Click()" style="width:100%">Button1</button>
-
-        </div>
-
-        <div class="column">
-
-            <button class="button" onclick="btn2Click()" style="width:100%">Button2</button>
-
-        </div>
-
-        <div class="column">
-
-            <button class="button" onclick="btn3Click()" style="width:100%">Button3</button>
-
-        </div>
+    <div class="testParallax">
+        <h2 align="center"><u><b>Testing Area</b></u></h2>
+        <p align="center"><b>This is an area used for testing html, css, and javascript</b></p>
     </div>
 
-    <iframe src="https://open.spotify.com/embed/album/0FZK97MXMm5mUQ8mtudjuK" width="300" height="525" class="spotify"></iframe>
+    <div class="testParallax"></div>
+
+        <div class="row">
+            <div class="column">
+
+                <button class="button" onclick="btn1Click()" style="width:100%">Button1</button>
+
+            </div>
+
+            <div class="column">
+
+                <button class="button" onclick="btn2Click()" style="width:100%">Button2</button>
+
+            </div>
+
+            <div class="column">
+
+                <button class="button" onclick="btn3Click()" style="width:100%">Button3</button>
+
+            </div>
+        </div>
+
+        <iframe src="https://open.spotify.com/embed/album/0FZK97MXMm5mUQ8mtudjuK" width="300" height="525" class="spotify"></iframe>
 
 </body>
