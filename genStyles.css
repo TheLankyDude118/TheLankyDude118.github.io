@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.arcadediv {
+    font-family: 'Press Start 2P', cursive;
+}
+
 body {
     margin: 0;
     background-color: #b00202;
@@ -118,9 +124,6 @@ body {
 }
 
 .spotify {
-    frameborder: "0";
-    allowtransparency: "true";
-    allow: "encrypted-media";
     margin: 10px;
     height: 525px;
 }
@@ -130,6 +133,41 @@ body {
     width: 15%;
     margin: 5px;
     cursor: pointer;
+}
+
+.footer {
+    background: black;
+    height: 290px;
+    width: inherit;
+}
+
+.footerRow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footerColumn {
+    float: left;
+    width: 33%;
+}
+
+.footerPlaceholder {
+    height: 100px;
+}
+
+.footerText {
+    background: none;
+    border: none;
+    color: #afbab1;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 16px;
+    color: white;
+    margin: 10px;
 }
 
 @media only screen and (max-width: 600px) {

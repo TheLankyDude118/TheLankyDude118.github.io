@@ -31,6 +31,11 @@ function openGenImpComp() {
     return false;
 }
 
+function openHTJ() {
+    parent.location = "http://JadenLawrence118.github.io/";
+    return false;
+}
+
 function downloadGames() {
     parent.location = "http://TheLankyDude118.github.io/downloads/GamesHub.exe";
     return false;
@@ -43,11 +48,6 @@ function downloadFloppy() {
 
 function downloadSnake() {
     parent.location = "http://TheLankyDude118.github.io/downloads/Snake.exe";
-    return false;
-}
-
-function downloadDele() {
-    parent.location = "http://TheLankyDude118.github.io/pics/Edits/Dele_Edit.png";
     return false;
 }
 
